@@ -1,0 +1,13 @@
+import time
+import os
+from colorama import Fore
+
+def matrix_effect():
+    chars = "01アイウエオカキク"
+    for _ in range(20):
+        print(Fore.GREEN + "".join(random.choice(chars) for _ in range(50)))
+        time.sleep(0.1)
+    os.system('clear')
+
+def hacking_effect(text):
+    print(Fore.RED + f"  └─ {text} " + Fore.GREEN + "█" * random.randint(10,30))
