@@ -1,0 +1,11 @@
+import datetime
+
+class PentestLogger:
+    def __init__(self):
+        self.log_file = "pentest_log.txt"
+    
+    def log_attack(self, target, status):
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open(self.log_file, "a") as f:
+            f.write(f"[{timestamp}] {target} - {status}\n")
+        print(f"📝 Logged: {status}")
