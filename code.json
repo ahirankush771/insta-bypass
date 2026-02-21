@@ -1,0 +1,16 @@
+{
+  "tool_version": "2.0",
+  "author": "Professional Pentester Ankush",
+  "max_attempts": 35,
+  "bypass_stages": [
+    "Instagram Rate Limiter Bypass",
+    "Instagram Firewall Bypass",
+    "Terms & Conditions Bypass",
+    "CAPTCHA Bypass Module",
+    "2FA Bypass Engine",
+    "Session Hijacking",
+    "API Key Extraction",
+    "OAuth Token Bypass"
+  ],
+  "demo_mode": true
+}
